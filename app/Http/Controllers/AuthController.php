@@ -37,5 +37,28 @@ class AuthController extends Controller
         return redirect()->route('dashboard');
     }
 
+    public function login_post(Request $request)
+    {
+        $credentials = $request->only('email', 'password');
+        $remember = $request->input('remember');
+
+        if (Auth::attempt($credentials, $remember)) {
+            $request->session()->regenerate();
+
+            return redirect()->route('dashboard');
+        }
+
+        return back()->withInput($request->only('email', 'remember'));
+    }
+
+    public function logout(Request $request)
+    {
+        Auth::logout();
+        $request->session()->invalidate();
+        $request->session()->regenerateToken();
+        return redirect('/');
+    }
+
+
 
 }

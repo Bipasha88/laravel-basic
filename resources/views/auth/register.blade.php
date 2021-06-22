@@ -1,4 +1,5 @@
 @extends('auth.layouts._default')
+@section('title', 'SB Admin 2 - Register')
 
 @section('content')
     <div class="card o-hidden border-0 shadow-lg my-5">

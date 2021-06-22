@@ -5093,7 +5093,7 @@ crow:
   label: Crow
   search:
     terms:
-      - bird
+      - birds
       - bullfrog
       - fauna
       - halloween
@@ -5873,7 +5873,7 @@ dove:
   label: Dove
   search:
     terms:
-      - bird
+      - birds
       - fauna
       - flying
       - peace
@@ -6888,7 +6888,7 @@ feather:
   label: Feather
   search:
     terms:
-      - bird
+      - birds
       - light
       - plucked
       - quill
@@ -6903,7 +6903,7 @@ feather-alt:
   label: Alternate Feather
   search:
     terms:
-      - bird
+      - birds
       - light
       - plucked
       - quill
@@ -9423,7 +9423,7 @@ hand-middle-finger:
   label: Hand with Middle Finger Raised
   search:
     terms:
-      - flip the bird
+      - flip the birds
       - gesture
       - hate
       - rude
@@ -11262,7 +11262,7 @@ kiwi-bird:
   label: Kiwi Bird
   search:
     terms:
-      - bird
+      - birds
       - fauna
       - new zealand
   styles:
