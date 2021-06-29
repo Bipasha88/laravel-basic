@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\BusinessDataController;
 use App\Http\Controllers\DataController;
 use App\Http\Controllers\TokenController;
 use Illuminate\Http\Request;
@@ -28,4 +29,6 @@ Route::group(['middleware' => ['jwt.verify']], function() {
     Route::get('user', [TokenController::class, 'getAuthenticatedUser']);
     Route::get('closed', [DataController::class, 'closed']);
 });
+
+Route::resource('business', BusinessDataController::class);
 
