@@ -12111,7 +12111,7 @@ map:
       - place
       - point of interest
       - position
-      - route
+      - router
       - travel
   styles:
     - solid
@@ -12137,7 +12137,7 @@ map-marked:
       - place
       - point of interest
       - position
-      - route
+      - router
       - travel
   styles:
     - solid
@@ -12162,7 +12162,7 @@ map-marked-alt:
       - place
       - point of interest
       - position
-      - route
+      - router
       - travel
   styles:
     - solid
@@ -12188,7 +12188,7 @@ map-marker:
       - place
       - point of interest
       - position
-      - route
+      - router
       - travel
   styles:
     - solid
@@ -12213,7 +12213,7 @@ map-marker-alt:
       - place
       - point of interest
       - position
-      - route
+      - router
       - travel
   styles:
     - solid
@@ -15622,7 +15622,7 @@ road:
       - highway
       - map
       - pavement
-      - route
+      - router
       - street
       - travel
   styles:

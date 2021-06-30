@@ -1,16 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <br>
-  <Birds />
+  <div>
+    <router-link to="/">Home</router-link>&nbsp;
+    <router-link to="/birds">Birds</router-link><br/>
+    <router-link to="/login">Login</router-link><br/>
+    <img alt="Vue logo" src="./assets/logo.png"><br/>
+    <router-view />
+  </div>
 </template>
 
 <script>
-import Birds from './birds/Birds.vue';
 export default {
   name: 'App',
-  components: {
-    Birds,
-  },
 };
 </script>
 

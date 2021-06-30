@@ -269,7 +269,7 @@ hire-a-helper:
     - couch
     - dolly
     - people-carry
-    - route
+    - router
     - sign
     - suitcase
     - tape

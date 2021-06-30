@@ -386,7 +386,7 @@ camping:
     - map-marked-alt
     - map-signs
     - mountain
-    - route
+    - router
     - toilet-paper
     - trailer
     - tree
@@ -1466,7 +1466,7 @@ maps:
     - restroom
     - road
     - rocket
-    - route
+    - router
     - search
     - search-minus
     - search-plus
@@ -1638,7 +1638,7 @@ moving:
     - couch
     - dolly
     - people-carry
-    - route
+    - router
     - sign
     - suitcase
     - tape

@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d445e946-0267-45a4-b418-b7341720e92f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/birdimage/src/components/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birdimage/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birdimage/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/birdimage/vue.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/RouteServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/src/birds/Birds.vue" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/birds/Birds.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/theme/vendor/fontawesome-free/metadata/categories.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/theme/vendor/fontawesome-free/metadata/categories.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/theme/vendor/fontawesome-free/metadata/icons.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/theme/vendor/fontawesome-free/metadata/icons.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/theme/vendor/fontawesome-free/metadata/sponsors.yml" beforeDir="false" afterPath="$PROJECT_DIR$/public/theme/vendor/fontawesome-free/metadata/sponsors.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,9 +160,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.0" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\laravel-basic\birdimage" />
+      <recent name="C:\xampp\htdocs\laravel-basic\birdimage\src" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="phpunit.xml" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
@@ -167,7 +188,8 @@
       <updated>1624344923184</updated>
       <workItem from="1624344966439" duration="9422000" />
       <workItem from="1624878687528" duration="6487000" />
-      <workItem from="1624968510329" duration="450000" />
+      <workItem from="1624968510329" duration="8077000" />
+      <workItem from="1625051343847" duration="5198000" />
     </task>
     <servers />
   </component>

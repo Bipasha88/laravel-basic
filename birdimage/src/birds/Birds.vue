@@ -5,7 +5,9 @@
 </template>
 
 <script>
+
 import birdImages from '../data/birdImages';
+
 export default {
   name: 'Birds',
   data() {
@@ -17,6 +19,8 @@ export default {
   methods: {
     changeBird() {
       this.currentIndex = (this.currentIndex + 1) % 4;
+      console.log(this.$store.state.token);
+      this.$store.dispatch('business');
     },
   },
 };
