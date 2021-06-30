@@ -6,11 +6,17 @@ const store = createStore({
     token: '',
     status: '',
     data: '',
+    user: {},
   },
   mutations: {
     setToken(state, token) {
       state.token = token;
       console.log(state.token);
+    },
+
+    registerData(state, user) {
+      state.user = user;
+      console.log(state.user);
     },
 
     setBusiness(state, status) {
@@ -26,6 +32,17 @@ const store = createStore({
   actions: {
     login({ commit }, data) {
       axios.post('/api/login', { email: data.email, password: data.password })
+        .then((result) => commit('setToken', result.data.token))
+        .catch(console.error);
+    },
+
+    register({ commit }, data) {
+      axios.post('/api/register', {
+        name: data.name,
+        email: data.email,
+        password: data.password,
+        password_confirmation: data.password_confirmation,
+      })
         .then((result) => commit('setToken', result.data.token))
         .catch(console.error);
     },

@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d445e946-0267-45a4-b418-b7341720e92f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/birdimage/src/components/Register.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/birdimage/src/birds/Birds.vue" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/birds/Birds.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/birdimage/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/router/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/birdimage/src/store/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/birdimage/src/store/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -177,7 +179,7 @@
       <workItem from="1624344966439" duration="9422000" />
       <workItem from="1624878687528" duration="6487000" />
       <workItem from="1624968510329" duration="8077000" />
-      <workItem from="1625051343847" duration="9254000" />
+      <workItem from="1625051343847" duration="13128000" />
     </task>
     <servers />
   </component>

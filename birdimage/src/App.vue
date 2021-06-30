@@ -3,6 +3,7 @@
     <router-link to="/">Home</router-link>&nbsp;
     <router-link to="/birds">Birds</router-link><br/>
     <router-link to="/login">Login</router-link><br/>
+    <router-link to="/register">Register</router-link><br/>
     <img alt="Vue logo" src="./assets/logo.png"><br/>
     <router-view />
   </div>
