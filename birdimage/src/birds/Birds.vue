@@ -21,6 +21,7 @@ export default {
       this.currentIndex = (this.currentIndex + 1) % 4;
       console.log(this.$store.state.token);
       this.$store.dispatch('business');
+      this.$store.dispatch('closed');
     },
   },
 };

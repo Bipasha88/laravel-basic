@@ -5,6 +5,7 @@ const store = createStore({
   state: {
     token: '',
     status: '',
+    data: '',
   },
   mutations: {
     setToken(state, token) {
@@ -16,6 +17,11 @@ const store = createStore({
       state.status = status;
       console.log(state.status);
     },
+
+    setAuthorization(state, data) {
+      state.data = data;
+      console.log(state.data);
+    },
   },
   actions: {
     login({ commit }, data) {
@@ -25,8 +31,14 @@ const store = createStore({
     },
 
     business({ commit }) {
-      axios.post('/api/business')
+      axios.get('/api/business', { headers: { Authorization: `Bearer ${this.state.token}` } })
         .then((result) => commit('setBusiness', result.data.data))
+        .catch(console.error);
+    },
+
+    closed({ commit }) {
+      axios.get('/api/closed', { headers: { Authorization: `Bearer ${this.state.token}` } })
+        .then((result) => commit('setAuthorization', result.data.data))
         .catch(console.error);
     },
   },
